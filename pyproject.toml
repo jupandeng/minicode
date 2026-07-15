@@ -1,0 +1,24 @@
+[project]
+name = "minicode"
+version = "1.0.0"
+description = "轻量级 AI 编程助手 — ReAct 模式 / 工具调用 / Skill 路由 / 记忆系统"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "jupandeng" }
+]
+keywords = ["agent", "ai", "coding-assistant", "llm", "tool-calling"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Repository = "https://github.com/jupandeng/minicode"
+
+[project.scripts]
+minicode = "src.main:main"
